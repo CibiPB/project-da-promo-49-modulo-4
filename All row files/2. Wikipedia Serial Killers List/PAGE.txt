@@ -1,1 +1,0 @@
-https://www.kaggle.com/datasets/dante890b/wikipedia-serial-killers-list?select=profile_killers.csv
