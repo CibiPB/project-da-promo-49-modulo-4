@@ -1,6 +1,13 @@
 
 
 
+
+
+
+
+# 🔪 Proyecto Power BI: Análisis de Asesinos en Serie
+
+
 # 🇬🇧 English Version
 
 > If you prefer to read this README in English, click here:  
@@ -9,8 +16,6 @@
 
 
 
-
-# 🔪 Proyecto Power BI: Análisis de Asesinos en Serie
 
 ## 🕵️‍♀️ Autoras  
 - Nuria Salas Vázquez  
@@ -23,6 +28,57 @@
 Este proyecto explora el fenómeno de los asesinos en serie mediante visualizaciones basadas en dos datasets recopilados de Wikipedia:
 
 - 🧷 **Dataset original en Kaggle: [Wikipedia Serial Killers Dataset](https://www.kaggle.com/datasets/dante890b/wikipedia-serial-killers-list)**
+
+
+
+### Columnas del DataFrame 'victims'
+
+Este DataFrame contiene información sobre asesinos en serie a nivel mundial. A continuación se describen las columnas disponibles:
+
+| Nombre de la columna                           | Descripción                                                                |
+|--------------------------------------------- --|----------------------------------------------------------------------------|
+| **Name**                                       | Nombre del asesino en serie.                                               |
+| **Killer Type**                                | Clasificación del tipo de asesino (mujer, hombre, grupo de hombres...).    |
+| **Country**                                    | País donde cometió los crímenes.                                           |
+| **Country Sorted**                             | Variante estandarizada del país para facilitar análisis.                   |
+| **Continent**                                  | Continente correspondiente al país.                                        |
+| **Start Year**                                 | Año en el que comenzó su actividad criminal.                               |
+| **End Year**                                   | Año en el que terminó su actividad criminal.                               |
+| **Median Year**                                | Año medio entre el inicio y el fin de su actividad.                        |
+| **Years Active**                               | Duración (en años) durante los que estuvo activo.                          |
+| **Decade**                                     | Década principal en la que cometió los crímenes.                           |
+| **Total Victims (Unproven + Proven)**          | Total de víctimas, incluyendo casos no probados.                           |
+| **Unproven Possible Victims**                  | Estimación de víctimas no confirmadas.                                     |
+| **Proven Victims**                             | Número de víctimas confirmadas oficialmente.                               |
+| **Notes**                                      | Notas adicionales o información relevante sobre el caso.                   |
+          
+
+
+### Columnas del DataFrame 'profile' 
+
+Este documento describe el significado de cada columna en el dataset relacionado con asesinos en serie.
+
+| Nombre de la Columna                           | Descripción                                                                 |
+|------------------------------------------------|-----------------------------------------------------------------------------|
+| **Name**                                       | Nombre completo del individuo.                                              |
+| **Nicknames**                                  | Alias o apodos por los que es conocido el individuo.                        |
+| **Age**                                        | Edad del individuo al momento de su muerte o actual si sigue vivo.          |
+| **Born Date**                                  | Fecha de nacimiento del individuo.                                          |
+| **Born Location**                              | Ciudad o región donde nació el individuo.                                   |
+| **Born Country**                               | País de nacimiento del individuo.                                           |
+| **Continent**                                  | Continente donde nació el individuo.                                        |
+| **Died Date**                                  | Fecha de fallecimiento (si está muerto).                                    |
+| **Died Location**                              | Lugar donde falleció el individuo.                                          |
+| **Date Apprehended**                           | Fecha en la que fue arrestado el individuo.                                 |
+| **Apprehended Age**                            | Edad al momento del arresto.                                                | 
+| **Conviction**                                 | Delitos por los que fue condenado el individuo.                             |
+| **Criminal Penalty**                           | Castigo o sentencia recibida (ej. cadena perpetua, pena de muerte).         |
+| **Criminal Penalty Categories**                | Clasificación general de la condena (ej. Muerte, Cadena perpetua, Prisión). |
+| **Zodiac Sign**                                | Signo del zodiaco según la fecha de nacimiento.                             |
+
+
+
+
 
 ---
 
@@ -57,14 +113,10 @@ Este proyecto explora el fenómeno de los asesinos en serie mediante visualizaci
 
 ## 📁 Enlaces
 
-- 📱 **[Archivo Power BI (versión móvil)]:(AQUI_TU_ENLACE_POWERBI)**
-- 🔗 **Ver informe en Power BI (versión móvil):[Añade tu link aquí](PON_AQUÍ_TU_ENLACE)**
-- 🐙 **Repositorio en GitHub: [Ver proyecto en GitHub](AQUI_TU_REPO_GITHUB)**
+- 📱 **Archivo Power BI :[versión móvil](AQUI_TU_ENLACE_POWERBI)**
+- 🔗 **Ver informe en Power BI :[Añade tu link aquí](PON_AQUÍ_TU_ENLACE)**
+- 🐙 **Repositorio en GitHub: [Ver proyecto en GitHub](https://github.com/CibiPB/project-da-promo-49-modulo-4)**
 
-
-## 📱 Versión móvil del informe
-
-Visualización optimizada para smartphones.
 
 
 
@@ -100,6 +152,53 @@ Visualización optimizada para smartphones.
 This project explores the phenomenon of serial killers using data visualization based on two Wikipedia datasets:
 
 - 🧷 **Original dataset on Kaggle: [Wikipedia Serial Killers Dataset](https://www.kaggle.com/datasets/dante890b/wikipedia-serial-killers-list)**
+
+
+### 'victims' DataFrame Columns
+
+This DataFrame contains information about serial killers around the world. The following are the columns included:
+
+| Column Name                                    | Description                                                                |
+|------------------------------------------------|----------------------------------------------------------------------------|
+| **Name**                                       | Name of the serial killer.                                                 |
+| **Killer Type**                                | Classification of killer type (male, female, male-grouos....).             |
+| **Country**                                    | Country where the crimes were committed.                                   |
+| **Country Sorted**                             | Standardized version of country name for sorting/analysis.                 |
+| **Continent**                                  | Continent where the country is located.                                    |
+| **Start Year**                                 | Year when the criminal activity started.                                   |
+| **End Year**                                   | Year when the criminal activity ended.                                     |
+| **Median Year**                                | Median year between start and end of activity.                             |
+| **Years Active**                               | Number of years the killer was active.                                     |
+| **Decade**                                     | Main decade in which the crimes took place.                                |
+| **Total Victims (Unproven + Proven)**          | Total number of victims (including unproven cases).                        |
+| **Unproven Possible Victims**                  | Estimated number of unconfirmed victims.                                   |
+| **Proven Victims**                             | Number of officially confirmed victims.                                    |
+| **Notes**                                      | Additional notes or relevant case details.                                 |
+
+
+
+
+### 'profile' DataFrame columns
+
+This document describes the meaning of each column in the dataset related to serial killers.
+
+| Column Name                                     | Description                                                                 |
+|-------------------------------------------------|-----------------------------------------------------------------------------|
+| **Name**                                        | Full name of the individual.                                                |
+| **Nicknames**                                   | Aliases or nicknames the individual is known by.                            |
+| **Age**                                         | The age of the individual at the time of death or currently, if still alive.|
+| **Born Date**                                   | The birth date of the individual.                                           |
+| **Born Location**                               | The city or region where the individual was born.                           |
+| **Born Country**                                | The country where the individual was born.                                  |
+| **Continent**                                   | The continent where the individual was born.                                |
+| **Died Date**                                   | The date of death of the individual (if deceased).                          | 
+| **Died Location**                               | The location where the individual died.                                     |
+| **Date Apprehended**                            | The date when the individual was arrested.                                  |
+| **Apprehended Age**                             | Age of the individual at the time of apprehension.                          |
+| **Conviction**                                  | Crimes or charges the individual was convicted of.                          |
+| **Criminal Penalty**                            | The punishment or sentence received (e.g., life imprisonment, death penalty)|
+| **Criminal Penalty Categories**                 | General classification of the penalty (e.g., Death, Life, Prison).          |
+| **Zodiac Sign**                                 | Astrological sign based on the date of birth.                               |
 
 
 ---
@@ -139,7 +238,7 @@ This project explores the phenomenon of serial killers using data visualization 
 
 - 📱 **Power BI File (Mobile Version): [Add your link here](YOUR_POWERBI_MOBILE_LINK)**
 
-- 🐙 **GitHub Repository: [View project on GitHub](YOUR_GITHUB_REPO_LINK)**
+- 🐙 **GitHub Repository: [View project on GitHub](https://github.com/CibiPB/project-da-promo-49-modulo-4)**
 
 ---
 
