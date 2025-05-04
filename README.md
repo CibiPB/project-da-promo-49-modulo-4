@@ -36,7 +36,7 @@ Este proyecto explora el fenómeno de los asesinos en serie mediante visualizaci
 Este DataFrame contiene información sobre asesinos en serie a nivel mundial. A continuación se describen las columnas disponibles:
 
 | Nombre de la columna                           | Descripción                                                                |
-|--------------------------------------------- --|----------------------------------------------------------------------------|
+|------------------------------------------------|----------------------------------------------------------------------------|
 | **Name**                                       | Nombre del asesino en serie.                                               |
 | **Killer Type**                                | Clasificación del tipo de asesino (mujer, hombre, grupo de hombres...).    |
 | **Country**                                    | País donde cometió los crímenes.                                           |
