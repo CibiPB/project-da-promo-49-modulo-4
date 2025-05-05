@@ -19,7 +19,7 @@
 
 ## 🕵️‍♀️ Autoras  
 - Nuria Salas Vázquez  
-- Cibelle Busnello
+- Cibele Busnello
 
 ---
 
@@ -256,4 +256,3 @@ This document describes the meaning of each column in the dataset related to ser
 - 💻 Visual Studio Code  
 - 📊 Power BI
 """
-
