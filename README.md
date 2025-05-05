@@ -143,7 +143,7 @@ Este documento describe el significado de cada columna en el dataset relacionado
 
 ## 🕵️‍♀️ Authors  
 - Nuria Salas Vázquez  
-- Cibelle Busnello
+- Cibele Busnello
 
 ---
 
