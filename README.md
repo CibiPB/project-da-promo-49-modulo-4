@@ -114,7 +114,8 @@ Este documento describe el significado de cada columna en el dataset relacionado
 
 ## 📁 Enlaces
 
-- 🔗 **Ver informe en Power BI: [Link] (https://github.com/CibiPB/project-da-promo-49-modulo-4/raw/main/Power%20BI/Final%20Project.pbix)**
+- 🔗 **[Ver informe en Power BI](https://github.com/CibiPB/project-da-promo-49-modulo-4/raw/main/Power%20BI/Final%20Project.pbix)**
+
 - 🐙 **Repositorio en GitHub: [Ver proyecto en GitHub](https://github.com/CibiPB/project-da-promo-49-modulo-4)**
 
 
