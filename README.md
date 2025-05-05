@@ -108,13 +108,13 @@ Este documento describe el significado de cada columna en el dataset relacionado
 - EE.UU. y Europa concentran la mayoría de los casos  
 - Perfil predominante: hombre que actúa solo  
 - Algunos casos registran décadas de actividad y decenas de víctimas
+- Más de la mitad de las victimas sin confirmar. Un escalofriante recordatorio de todo lo que aún no sabemos y de cuántas     historias quizás nunca se cuenten.
 
 ---
 
 ## 📁 Enlaces
 
-- 📱 **Archivo Power BI :[versión móvil](AQUI_TU_ENLACE_POWERBI)**
-- 🔗 **Ver informe en Power BI :[Añade tu link aquí](PON_AQUÍ_TU_ENLACE)**
+- 🔗 **Ver informe en Power BI: [Link] (https://github.com/CibiPB/project-da-promo-49-modulo-4/raw/main/Power%20BI/Final%20Project.pbix)**
 - 🐙 **Repositorio en GitHub: [Ver proyecto en GitHub](https://github.com/CibiPB/project-da-promo-49-modulo-4)**
 
 
@@ -229,14 +229,12 @@ This document describes the meaning of each column in the dataset related to ser
 - Most cases are in the U.S. and Europe  
 - Male solo killers dominate  
 - Some have dozens of victims over decades
-
+- More than half of the victims remain unconfirmed — a chilling reminder of how much we still don't know, and how many stories may never be told.
 ---
 
 ## 📁 Links
 
-- 🔗 **[View Power BI Report](PUT_YOUR_LINK_HERE)**
-
-- 📱 **Power BI File (Mobile Version): [Add your link here](YOUR_POWERBI_MOBILE_LINK)**
+- 🔗 **[View Power BI Report](https://github.com/CibiPB/project-da-promo-49-modulo-4/raw/main/Power%20BI/Final%20Project.pbix)**
 
 - 🐙 **GitHub Repository: [View project on GitHub](https://github.com/CibiPB/project-da-promo-49-modulo-4)**
 
